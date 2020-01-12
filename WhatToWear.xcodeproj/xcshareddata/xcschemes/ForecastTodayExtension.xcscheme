@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1120"
+   wasCreatedForAppExtension = "YES"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75F613FD205E194E00FEFA71"
+               BuildableName = "ForecastTodayExtension.appex"
+               BlueprintName = "ForecastTodayExtension"
+               ReferencedContainer = "container:WhatToWear.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "756D43B01F7E11C5009F0E3A"
+               BuildableName = "WeatherRules.app"
+               BlueprintName = "WhatToWear"
+               ReferencedContainer = "container:WhatToWear.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Prod-Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "75F613FD205E194E00FEFA71"
+            BuildableName = "ForecastTodayExtension.appex"
+            BlueprintName = "ForecastTodayExtension"
+            ReferencedContainer = "container:WhatToWear.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75554AC720D8ABC2008D395C"
+               BuildableName = "WhatToWearNetworkingTests.xctest"
+               BlueprintName = "WhatToWearNetworkingTests"
+               ReferencedContainer = "container:WhatToWear.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "759A1FB62118268A002F0EB4"
+               BuildableName = "WeatherRulesScreenshots.xctest"
+               BlueprintName = "WeatherRulesScreenshots"
+               ReferencedContainer = "container:WhatToWear.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "756D43CF1F7E11C5009F0E3A"
+               BuildableName = "WhatToWearUITests.xctest"
+               BlueprintName = "WhatToWearUITests"
+               ReferencedContainer = "container:WhatToWear.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75FB6B5D2370CC0900C10970"
+               BuildableName = "WhatToWearTests.xctest"
+               BlueprintName = "WhatToWearTests"
+               ReferencedContainer = "container:WhatToWear.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Prod-Debug"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      launchStyle = "0"
+      askForAppToLaunch = "Yes"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "2">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "75F613FD205E194E00FEFA71"
+            BuildableName = "ForecastTodayExtension.appex"
+            BlueprintName = "ForecastTodayExtension"
+            ReferencedContainer = "container:WhatToWear.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Prod-Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "2">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "756D43B01F7E11C5009F0E3A"
+            BuildableName = "WeatherRules.app"
+            BlueprintName = "WhatToWear"
+            ReferencedContainer = "container:WhatToWear.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Prod-Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Prod-Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

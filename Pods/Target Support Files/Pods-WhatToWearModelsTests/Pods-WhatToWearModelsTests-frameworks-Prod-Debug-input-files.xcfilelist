@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-WhatToWearModelsTests/Pods-WhatToWearModelsTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework
+${BUILT_PRODUCTS_DIR}/Then/Then.framework
+${BUILT_PRODUCTS_DIR}/WhatToWearCommonCore/WhatToWearCommonCore.framework
+${BUILT_PRODUCTS_DIR}/Tagged/Tagged.framework
+${BUILT_PRODUCTS_DIR}/WhatToWearCommonModels/WhatToWearCommonModels.framework
+${BUILT_PRODUCTS_DIR}/KeyedAPIParameters/KeyedAPIParameters.framework
+${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework
+${BUILT_PRODUCTS_DIR}/Quick/Quick.framework
+${BUILT_PRODUCTS_DIR}/TaggedTime/TaggedTime.framework
+${BUILT_PRODUCTS_DIR}/WhatToWearCommonTesting/WhatToWearCommonTesting.framework

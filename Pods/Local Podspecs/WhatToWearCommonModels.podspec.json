@@ -1,0 +1,30 @@
+{
+  "name": "WhatToWearCommonModels",
+  "version": "2.1.0",
+  "summary": "Common model files for both WhatToWear and WhatToWearBackend",
+  "homepage": "https://github.com/Noobish1/whattowearcommonmodels",
+  "license": "MIT",
+  "authors": {
+    "Blair McArthur": "blair.mcarthur@icloud.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/Noobish1/whattowearcommonmodels.git",
+    "tag": "2.1.0"
+  },
+  "requires_arc": true,
+  "source_files": "WhatToWearCommonModels/**/*.swift",
+  "module_name": "WhatToWearCommonModels",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "WhatToWearCommonCore": [
+
+    ],
+    "Tagged": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,6 @@
+framework module WhatToWearCommonModels {
+  umbrella header "WhatToWearCommonModels-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,164 @@
+disabled_rules:
+    - redundant_string_enum_value
+    - todo
+opt_in_rules:
+    - force_unwrapping
+    - attributes
+    - file_header
+    - prohibited_super_call
+    - closure_spacing
+    - explicit_init
+    - first_where
+    - nimble_operator
+    - overridden_super_call
+    - private_outlet
+    - redundant_nil_coalescing
+    - fatal_error_message
+    - explicit_top_level_acl
+    - implicit_return
+    - empty_count
+    - array_init
+    - closure_end_indentation
+    - contains_over_first_not_nil
+    - let_var_whitespace
+    - literal_expression_end_indentation
+    - operator_usage_whitespace
+    - override_in_extension
+    - quick_discouraged_call
+    - quick_discouraged_focused_test
+    - quick_discouraged_pending_test
+    - single_test_class
+    - sorted_first_last
+    - unneeded_parentheses_in_closure_argument
+    - explicit_acl
+    - private_action
+    - sorted_imports
+    - yoda_condition
+    - convenience_type
+    - discouraged_optional_boolean
+    - discouraged_optional_collection
+    - empty_string
+    - empty_xctest_method
+    - fallthrough
+    - file_name
+    - lower_acl_than_parent
+    - modifier_order
+    - switch_case_alignment
+    - unavailable_function
+    - explicit_enum_raw_value
+    - anyobject_protocol
+    - implicitly_unwrapped_optional
+    - closure_body_length
+    - discouraged_object_literal
+    - identical_operands
+    - last_where
+    - legacy_random
+    - multiline_arguments
+    - prohibited_interface_builder
+    - toggle_bool
+    - unused_import
+    - static_operator
+    - redundant_type_annotation
+    - nslocalizedstring_key
+    - multiline_function_chains
+    - multiline_literal_brackets
+    - multiline_parameters
+    - multiline_parameters_brackets
+    - vertical_parameter_alignment_on_call
+    - vertical_whitespace_closing_braces
+    - vertical_whitespace_opening_braces
+    - reduce_into
+    - file_types_order
+    - type_contents_order
+    - no_extension_access_modifier
+    - legacy_multiple
+    - unused_declaration
+    - contains_over_filter_count
+    - contains_over_filter_is_empty
+    - contains_over_range_nil_comparison
+    - raw_value_for_camel_cased_codable_enum
+included:
+    - WhatToWear/WhatToWear
+    - Models/WhatToWearModels
+    - Models/WhatToWearTesting
+    - Core/WhatToWearCore
+    - Networking
+    - Environment
+    - CoreUI/WhatToWearCoreUI
+    - CoreComponents/WhatToWearCoreComponents
+    - ForecastExtension
+    - RulesExtension
+    - ExtensionCore
+    - ErrorRecorder
+    - Charts
+    - Testing/WhatToWearTesting
+    - CombinedExtension
+unused_declaration:
+    include_public_and_open: true
+type_contents_order:
+    order:
+        - type_alias
+        - associated_type
+        - subtype
+        - case
+        - [type_property, instance_property]
+        - ib_outlet
+        - ib_inspectable
+        - initializer
+        - type_method
+        - [other_method, view_life_cycle_method]
+        - [other_method, ib_action, subscript]
+cyclomatic_complexity:
+    ignores_case_statements: false
+trailing_whitespace:
+    ignores_empty_lines: true
+colon:
+    apply_to_dictionaries: false
+line_length: 200 # I think I want 104 though
+file_length:
+    - 750 # warning
+closure_body_length:
+    - 30 # warning
+function_body_length:
+    - 200 # warning
+type_body_length:
+    - 600 # warning
+type_name:
+    excluded:
+        - R # R.swift
+        - image # R.swift
+        - intern # R.swift
+        - _R # R.swift
+    min_length: 2 # only warning
+    max_length: # warning and error
+        warning: 60
+    allowed_symbols: [_]
+identifier_name:
+    excluded: [vc, id, i, vm, us, to, from]
+    allowed_symbols: [_]
+file_name:
+    excluded:
+        - WeatherChartViewParams.swift
+        - R.generated.swift
+        - WeatherChartView.swift # WeatherChartView.Params extension gets funky
+        - PercentageMeasurements.swift
+        - TimeMeasurements.swift
+        - SelectableMeasurements.swift
+        - RawDoubleMeasurements.swift
+        - CalculatedPercentageMeasurements.swift
+        - TemperatureMeasurements.swift
+        - SpeedMeasurements.swift
+        - AngleMeasurements.swift
+        - LengthMeasurements.swift
+        - PressureMeasurements.swift
+modifier_order:
+    preferred_modifier_order:
+        - acl
+        - override
+nesting:
+    type_level:
+        warning: 4
+switch_case_alignment:
+    indented_cases: true
+function_parameter_count:
+    warning: 7

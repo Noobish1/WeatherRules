@@ -1,0 +1,6 @@
+framework module Pods_WhatToWearCoreComponents {
+  umbrella header "Pods-WhatToWearCoreComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

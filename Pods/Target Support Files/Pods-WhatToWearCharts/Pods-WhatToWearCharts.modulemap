@@ -1,0 +1,6 @@
+framework module Pods_WhatToWearCharts {
+  umbrella header "Pods-WhatToWearCharts-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_CombinedTodayExtension {
+  umbrella header "Pods-CombinedTodayExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

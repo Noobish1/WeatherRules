@@ -1,0 +1,6 @@
+framework module Pods_WhatToWearModelsTesting {
+  umbrella header "Pods-WhatToWearModelsTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}

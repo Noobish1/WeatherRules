@@ -1,0 +1,21 @@
+{
+"time": 1512126000,
+"summary": "Partly Cloudy",
+"icon": "partly-cloudy-night",
+"precipType": "rain",
+"precipIntensity": 0,
+"precipProbability": 0.5,
+"precipAccumulation": 2,
+"temperature": 16.37,
+"apparentTemperature": 16.37,
+"dewPoint": 14.03,
+"humidity": 0.86,
+"pressure": 1026.92,
+"windSpeed": 2.03,
+"windGust": 3.81,
+"windBearing": 21,
+"cloudCover": 0.36,
+"uvIndex": 0,
+"visibility": 10.01,
+"ozone": 287.09
+}

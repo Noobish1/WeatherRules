@@ -1,0 +1,6 @@
+framework module WhatToWearCommonTesting {
+  umbrella header "WhatToWearCommonTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}

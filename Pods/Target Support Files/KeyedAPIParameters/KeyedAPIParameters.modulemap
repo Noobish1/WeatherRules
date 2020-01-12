@@ -1,0 +1,6 @@
+framework module KeyedAPIParameters {
+  umbrella header "KeyedAPIParameters-umbrella.h"
+
+  export *
+  module * { export * }
+}
