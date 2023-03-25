@@ -8,7 +8,7 @@
 ![Bitrise](https://img.shields.io/bitrise/b5a1458389444052/public-master?token=edhPAmgQBXB2viNn9venKw)
 [![Maintainability](https://api.codeclimate.com/v1/badges/26c43e8006e2c6ea1155/maintainability)](https://codeclimate.com/github/Noobish1/WeatherRules/maintainability)
 
-This repo contains the entire WeatherRules iOS app, available [here](https://itunes.apple.com/app/id1418841967) on the iOS App Store.
+This repo contains the entire WeatherRules iOS app, that was available on the iOS App Store until Apple shutdown the Dark Sky API and replaced it with WeatherKit.
 
 This repo is meant as a portfolio piece and an example of my code, you won't be able to just build and run it as it's missing API Keys among other things.
 
